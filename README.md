@@ -434,9 +434,7 @@ Kalau dulu Outfit itu class biasa, jadi semua outfit ditampilkan sama aja. Sekar
 
 1. Versi lama (Outfit biasa)
 
-- Outfit adalah class konkret, bisa langsung dibuat objek:
-
-"Outfit outfit = new Outfit("Kaos", "Jeans", "Topi");"
+- Outfit adalah class konkret artinya Outfit adalah class biasa yang bisa langsung dibuat objeknya. Class ini memiliki implementasi penuh untuk semua method nya, sehingga kita bisa langsung membuat instance dari class ini tanpa harus membuat subclass terlebih dahulu.
 
 - Method tampilkanOutfit() sudah ada implementasinya = selalu sama: menampilkan atasan, bawahan, aksesoris.
   
