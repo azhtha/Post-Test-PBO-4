@@ -357,7 +357,7 @@ Merupakan subclass dari Outfit (inheritance).
 
 Menambahkan atribut acara untuk menyimpan jenis acara outfit formal.
 
-Atribut dibuat private dan ada getter & setter → menerapkan encapsulation.
+Atribut dibuat private dan ada getter & setter = menerapkan encapsulation.
 
 Mewarisi semua atribut dan metode dari superclass (atasan, bawahan, aksesoris, tampilkanOutfit()).
 
@@ -369,7 +369,7 @@ Merupakan subclass dari Outfit.
 
 Menambahkan atribut jalanJalan untuk menyimpan aktivitas casual.
 
-Atribut private, memiliki getter & setter → encapsulation diterapkan.
+Atribut private, memiliki getter & setter = encapsulation diterapkan.
 
 Mewarisi semua atribut dan metode dari superclass.
 
@@ -418,7 +418,7 @@ Karena kita menambahkan konsep abstraction & polymorphism. Sekarang Outfit bukan
 
 ### Output perubahan di menu lain
 
-Lihat Outfit (case 2) = tetap sama, tapi efeknya beda karena service.lihatOutfit() sekarang menampilkan hasil tampilkanOutfit() yang sudah dioverride di subclass.
+Lihat Outfit (case 2) = tetap sama, tapi efeknya beda karena service.lihatOutfit() sekarang menampilkan hasil tampilkanOutfit() yang sudah dioverriding di subclass.
 
 <img width="571" height="212" alt="image" src="https://github.com/user-attachments/assets/1c2d2459-7ec2-4dbe-8235-c99288a47804" />
 
@@ -478,7 +478,7 @@ Kalau dulu Outfit itu class biasa, jadi semua outfit ditampilkan sama aja. Sekar
    
    - Menambahkan atribut tempatSantai (pengganti jalanJalan).
    
-   - Menambahkan override method tampilkanOutfit() = membuat format tampilan outfit khusus untuk CasualOutfit.
+   - Menambahkan overriding method tampilkanOutfit() = membuat format tampilan outfit khusus untuk CasualOutfit.
    
    - Sekarang tiap subclass punya versi tampilannya sendiri = mengimplementasikan Polymorphism (Overriding).
   
@@ -498,9 +498,9 @@ Kalau dulu Outfit itu class biasa, jadi semua outfit ditampilkan sama aja. Sekar
 
    - FormalOutfit tetap subclass dari Outfit, namun class induknya kini abstract.
    
-   - Masih memiliki atribut acara tetapi menambahkan override method tampilkanOutfit().
+   - Masih memiliki atribut acara tetapi menambahkan overriding method tampilkanOutfit().
    
-   - tampilkanOutfit() di-override untuk menampilkan outfit formal dengan format khusus:
+   - tampilkanOutfit() di overriding untuk menampilkan outfit formal dengan format khusus:
    
 <img width="688" height="93" alt="image" src="https://github.com/user-attachments/assets/1b7370de-f785-4275-af9a-18cbbfcccfc4" />
 
